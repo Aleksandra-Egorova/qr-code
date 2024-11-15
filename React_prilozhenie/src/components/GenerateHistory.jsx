@@ -12,7 +12,6 @@ export const GenerateHistory = () => {
     return (
         // вывод массивов в реакте с помощью цикла map: map пробегается по массиву data и возвращает новый массив 
         <div className={s.container}>
-            Изменения 15 ноября
             {data.map((text) => (
                 <p key={text} className={s.text}>
                     {text}
