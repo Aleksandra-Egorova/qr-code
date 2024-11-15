@@ -12,6 +12,7 @@ export const GenerateHistory = () => {
     return (
         // вывод массивов в реакте с помощью цикла map: map пробегается по массиву data и возвращает новый массив 
         <div className={s.container}>
+            Изменения 15 ноября
             {data.map((text) => (
                 <p key={text} className={s.text}>
                     {text}
@@ -25,17 +26,3 @@ export const GenerateHistory = () => {
 
 
 
-
-// return (
-//     // вывод массивов в реакте с помощью цикла map: map пробегается по массиву data и возвращает новый массив 
-//     <div className={s.container}>
-//         {data.map((text) => (
-//             <p key={text} className={s.text}>
-//                 {text}
-//                 {/* код ниже показывает QR коды нишх ссылок из историии сканирования*/}
-//                 <QRCodeSVG value={text} size ={100}/>
-//                 </p>
-//         ))}
-//     </div>
-// );
-// };
